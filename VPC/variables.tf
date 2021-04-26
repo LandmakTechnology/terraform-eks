@@ -1,4 +1,4 @@
-/* @Mithun Technologies
+/* @Landmark Technologies
  Demo VPC varaibles file. Make sure you replace key_name value
  with your key name which  you have in given aws_region.
 */
