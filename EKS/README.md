@@ -11,3 +11,6 @@ kubectl create deployment autoscaler-demo --image=nginx
 kubectl get pods --all-namespaces | grep Running | wc -l
 kubectl get nodes -o yaml | grep pods
 kubectl scale deployment autoscaler-demo --replicas=20
+
+https://docs.aws.amazon.com/eks/latest/userguide/install-aws-iam-authenticator.html
+aws-iam-authenticator help
