@@ -156,7 +156,7 @@ spec:
             - --node-group-auto-discovery=asg:tag=k8s.io/cluster-autoscaler/enabled,k8s.io/cluster-autoscaler/terraform-eks-demo
           env:
           - name: AWS_REGION
-            value: ap-south-1
+            value: us-east-2
           volumeMounts:
           - name: ssl-certs
             mountPath: /etc/ssl/certs/ca-certificates.crt
