@@ -36,6 +36,24 @@ $ cd Terraform_Scripts
 ```
 #### <span style="color:orange">Update Your Key Name in variables.tf file before executing terraform script.</span>
 ## Infrastructure As A Code
+
+#### Create an EKS Kubernetes Cluster (VPC,Subnets,Route Tables, EKS Cluster, EKS NodeGroup, IAM, etc) As A Code Using Terraform Scripts
+``` sh
+# Initialise to install plugins
+ cd /terraform-eks/EKS
+ terraform init 
+# Validate teffaform scripts
+ terraform validate 
+# Plan terraform scripts which will list resources which is going  be created.
+ terraform plan 
+# Apply to create resources
+ terraform apply --auto-approve 
+ 
+ ##  Destroy Infrastructure after...  
+```sh
+$ terraform destroy --auto-approve 
+```
+```
 #### Create Infrastructure(VPC,Subnets,Route Tables,EC2 Instnaces ..etc) As A Code Using Terraform Scripts
 ``` sh
 # Initialise to install plugins
