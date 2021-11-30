@@ -2,3 +2,5 @@ potatoes
 plantains
 banana
 oranges
+lemon
+ice cream
