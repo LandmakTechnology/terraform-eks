@@ -4,3 +4,5 @@ banana
 oranges
 lemon
 ice cream
+water melon
+cantaloupe
