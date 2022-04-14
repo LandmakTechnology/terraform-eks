@@ -8,5 +8,6 @@ node{
     sh  "terraform plan" 
     sh  "terraform apply --auto-approve" 
     sh "echo Please review"
+    sh "echo good job with boa"
     }
 }
