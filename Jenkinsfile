@@ -7,5 +7,6 @@ node{
     sh "echo configurating maven, sonarQube, nexus & k8s"
     sh  "terraform plan" 
     sh  "terraform apply --auto-approve" 
+    sh "echo good job with boa"
     }
 }
