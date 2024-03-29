@@ -2,7 +2,7 @@
 resource "aws_instance" "Demo_Server" {
   count                  = 1
   ami                    = var.ubuntuami
-  instance_type          = "t2.medium"
+  instance_type          = "t2.xlarge"
   vpc_security_group_ids = [aws_security_group.demo_sg.id]
   subnet_id              = element(aws_subnet.subnets.*.id, count.index)
   key_name               = var.key_name
